@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>MATLABOCTAVE</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- 
+				....................................................................................
+				.......................   PORTADA   ...........................................
+				....................................................................................
+				-->
+				<section>
+					<div>
+							<img style='' src="img/logo.png">							
+					</div>
+					<div style='clear: both; margin-top: 10px; margin-bottom: 20px'></div>
+					<h2 style='background-color: #f0f8ff; margin-top: 50px'>Programación para Ingeniería y Ciencias con MATLAB y Octave</h2>
+					<h4 style='margin-top:40px; color: #483d8b; border:none; background-color: #fff'>Coordinador:</h4>
+					<h4 style='color: #483d8b; border:none; background-color: #fff'>Santiago Higuera de Frutos</h4>
+					<h4 style='color: #483d8b; border:none; background-color: #fff'><small>Doctor Ingeniero de Caminos</small></h4>
+				</section>
+
+				<!-- Bio -->
+				<section>
+          <h3 style='float:left;'>Santiago Higuera de Frutos</h3>
+          <div style='float: right; width: 300px'>
+            <img src="img/fotomia.jpg" style="float: right; width:280px"/>
+          </div>
+          <div style='float: left; width:650px'>
+            <ul style='line-height: 1.35em'>
+              <li>eMail: <a href='mailto:santiago.higuera@upm.es'>santiago.higuera@upm.es</a></li>
+              <li>Twitter: <a href="http://twitter.com/santiagohiguera">@santiagohiguera</a></li>
+              <li>Profesor en <a href='https://twitter.com/caminosupm?lang=es'>@caminosupm</a></li>
+              <li>Participo en:</li>
+              <ul>
+              	<li><a href="http://www2.caminos.upm.es/Departamentos/matematicas/WEBGIE/">Pensamiento Matemático</a></li>
+	              <li><a href="http://osgeo.org">OSGeo</a> y
+	                <a href="http://es.osgeo.org">OSGeo-es</a></li>
+	              <li><a href="http://geoinquietos.org">Geoinquietos
+	                Madrid</a></li>
+	              <li><a href="http://osm.org">OpenStreetMap</a></li>
+              </ul>              
+              <li>Escribo en:</li>
+                <ul>
+                  <!--<li><a href="http://mercatorlab.com/wordpress/">Blog Descartes</a></li>-->
+                  <li><a href="https://octaveintro.readthedocs.io/en/latest/">Manual GNU-Octave</a></li>
+                  <!--<li><a href="http://openlayers.bicimap.es/manualOpenLayers.html">Manual OpenLayers</a></li>-->
+                </ul>
+            </ul>
+          </div>
+       		</section>
+
+       		<section>
+       			<h3>Contenidos del curso</h3>
+       			<ol style='line-height: 1.35em'>
+       				<li><span style='color: #0000a0; font-weight: bold'>Introducción:</span> Instalación del software. Operadores aritméticos, relacionales y lógicos. Funciones de biblioteca. Comandos utilitarios</li>
+       				<li><span style='color: #0000a0; font-weight: bold'>Programación básica:</span> scripts, asignaciones, bifurcaciones y bucles. Entrada de datos por teclado y salida de resultados por pantalla</li>
+       				<li>Operaciones con <span style='color: #0000a0; font-weight: bold'>vectores y matrices</span></li>
+       				<li>Programación estructurada. Desarrollo de <span style='color: #0000a0; font-weight: bold'>funciones</span></li>
+       				<li><span style='color: #0000a0; font-weight: bold'>Gráficos</span> 2D y 3D</li>
+       				<li><span style='color: #0000a0; font-weight: bold'>Ejemplos</span> de aplicación: sistemas de ecuaciones, ecuaciones no lineales e integración numérica</li>
+       				<li>Instalación de <span style='color: #0000a0; font-weight: bold'>paquetes adicionales</span> en Octave</li>
+       			</ol>
+       		</section>
+
+				<section>
+					<h3>Descarga de software</h3>
+					<div style='clear: both; margin-top: 100px; margin-bottom: 20px'></div>
+					<ul>
+						<li>
+							<p style='color:#0000a0; font-weight: bold'>MATLAB</p>
+							<a href="https://es.mathworks.com/downloads" target='_blank'>https://es.mathworks.com/downloads/web_downloads</a>
+							<p>Licencia con el correo UPM</p></li>
+						<li>
+							<p style='color:#0000a0; font-weight: bold'>Octave</p>
+							<a href="http://octave.org" target='_blank'>http://octave.org</a>
+							<p>Software libre, no necesita licencia</p></li>
+					</ul>
+					<div style='clear: both; margin-top: 160px; '></div>
+				</section>
+
+				<section>
+					<h3>Bibliografía recomendada</h3>
+					<div style='clear: both; margin-top: 10px; margin-bottom: 0px'></div>
+					<small><p>"Programación para Ingeniería y Ciencias con MATLAB y Octave"<br> Sagrario Lantarón Sánchez. Biblioteca Técnica Universitaria</p></small>
+					<img src="img/libro.png" style='height:500px'>
+					<div style='clear: both; margin-top: 160px; '></div>
+				</section>
+
+				<section>
+					<h3>Referencia de Octave</h3>
+					<div style='clear: both; margin-top: 10px; margin-bottom: 0px'></div>
+					<small><p>"Free your numbers"<br> Varios autores. Descarga libre pdf</p>
+						<a href="https://www.gnu.org/software/octave/octave.pdf" target='_blank'>https://www.gnu.org/software/octave/octave.pdf</a></small>
+					<br><img src="img/libro2.png" style='height:500px'>
+					<div style='clear: both; margin-top: 160px; '></div>
+				</section>
+
+				<section>
+					<h3>Documentación en línea</h3>
+					<div style='clear: both; margin-top: 100px; margin-bottom: 0px'></div>
+					<ul>
+						<li>
+							<p style='color:#0000a0; font-weight: bold'>MATLAB</p>
+							<a href="https://es.mathworks.com/help/matlab/" target='_blank'>https://es.mathworks.com/help/matlab/</a>
+						</li>
+						<li>
+							<p style='color:#0000a0; font-weight: bold'>Octave</p>
+							<a href="https://www.gnu.org/software/octave/doc/interpreter/" target='_blank'>https://www.gnu.org/software/octave/doc/interpreter/</a>
+						</li>
+						<li>
+							<p style='color:#0000a0; font-weight: bold'>Gráficos de superficies</p>
+							<a href="http://mercatorlab.com/mastermusic/superficies.pdf" target='_blank'>http://mercatorlab.com/mastermusic/superficies.pdf</a>
+						</li>
+					</ul>
+					<div style='clear: both; margin-top: 160px; '></div>
+				</section>
+				
+				<section>
+					<h3>Instalación del software necesario, entorno de desarrollo y primeros pasos</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/RQpyM0U-RH8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Uso del software como calculadora</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/jxUE-Afs8jY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Tipos de datos elementales, operadores y comandos utilitarios</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/u389HUzXZDM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Introducción al manejo de MATLAB Y Octave</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/FGXH5IU1ACQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3> Iniciación a la programación</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/ZlCiX9ZRpTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Iniciación a la programación I</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/EbsaoFXZ-wk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3> Iniciación a la programación II</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/V9c2eg9ZOUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Resolución de sistemas lineales</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/Lkc4gBh8YMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Estructuras de control de tipo condicional</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/1RBZOdF0hik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Funciones de biblioteca I (parte 1)</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/ybW-NBzIbMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Funciones de biblioteca I (parte 2)</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/xdw0BF1c1Ts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Funciones de biblioteca II</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/FxVWuu-IjQY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Estructura repetitiva "for"</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/94gKdE3ZmcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Estructura repetitiva "while"</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/MhQCRJe9Akc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Interrupciones de bucles y programas</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/RnUwXBsOgNg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Gráficos bidimensionales</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/YTwbquTshTw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Gráficos de superficies</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/JMYeVLbIZOA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Manejo de múltiples gráficos y comandos auxiliares</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/frHxXQ8awE4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Visualización de campos vectoriales y curvas de nivel</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/hEJkH2P5RpI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Programación modular</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/iwxpKaDKKDs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Funciones definidas por el programador</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/ZPSrKJXW42M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Ficheros de datos I</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/hHwJKvxsCmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Ficheros de datos II</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/bx4KssGng1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3> Integración numérica</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/IZltVK7MYck" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3>Sistemas de ecuaciones lineales. Métodos iterativos</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/FZMxeKQ0V_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h3> Ecuaciones no lineales</h3>
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/qCK7vEw5Bjo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+
+
+
+				<section>
+					<h1>FIN</h1>
+					<h4>Santiago Higuera</h4>
+					<p style='clear:both'>
+            <small>Esta obra está bajo una Licencia<br/><a rel="license"
+            href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+              Creative Commons Atribución-NoComercial-CompartirIgual
+              3.0 Unported</a></small>
+          </p>
+            <a rel="license"
+            href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+            <img src="img/cc-by-nc-sa.png" class="no-back" width='150'></a>
+					</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				slideNumber: true,
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
